@@ -1,5 +1,8 @@
 import 'package:go_router/go_router.dart';
 
+import '../../features/login/ui/widgets/login_screen.dart';
+import '../../features/onboarding/onboarding_screen.dart';
+
 abstract class AppRouter {
   static const kHomeView = '/homeView';
   static const kLogin = '/loginScreen';
@@ -9,16 +12,16 @@ abstract class AppRouter {
     routes: [
       GoRoute(
         path: '/',
-        builder: (context, state) => const onBoardingScreen(),
+        builder: (context, state) => const OnBoardingScreen(),
       ),
       GoRoute(
-        path: kHomeView,
-        builder: (context, state) => const Home(),
+        path: kLogin,
+        builder: (context, state) => const LoginScreen(),
       ),
-      GoRoute(
-        path: kSettingsView,
-        builder: (context, state) => const Settings(),
-      ),
+      // GoRoute(
+      //   path: kSettingsView,
+      //   builder: (context, state) => const Settings(),
+      // ),
     ],
   );
 }
