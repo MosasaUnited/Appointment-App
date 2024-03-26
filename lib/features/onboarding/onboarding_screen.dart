@@ -17,7 +17,7 @@ class OnBoardingScreen extends StatelessWidget {
             ),
             child: const Column(
               children: [
-                DocLogoAndName(),
+                TapDocLogo(),
               ],
             ),
           ),

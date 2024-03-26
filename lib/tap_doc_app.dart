@@ -1,10 +1,11 @@
+import 'package:appointment_app/core/helpers/strings.dart';
 import 'package:appointment_app/core/routing/app_router.dart';
-import 'package:appointment_app/core/theming/colors.dart';
+import 'package:appointment_app/core/theming/colorngs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class DocDocApp extends StatelessWidget {
-  const DocDocApp({super.key});
+class TapDocApp extends StatelessWidget {
+  const TapDocApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,7 @@ class DocDocApp extends StatelessWidget {
       designSize: const Size(360, 690),
       minTextAdapt: true,
       child: MaterialApp.router(
-        title: 'Doc Doc',
+        title: AppStrings.appName,
         theme: ThemeData(
           primaryColor: AppColors.primaryColor,
           scaffoldBackgroundColor: Colors.white,

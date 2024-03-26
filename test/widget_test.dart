@@ -5,14 +5,14 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:appointment_app/doc_doc_app.dart';
+import 'package:appointment_app/tap_doc_app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const DocDocApp());
+    await tester.pumpWidget(const TapDocApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
