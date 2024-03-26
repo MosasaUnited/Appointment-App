@@ -1,8 +1,9 @@
 import 'package:appointment_app/core/helpers/strings.dart';
 import 'package:appointment_app/core/routing/app_router.dart';
-import 'package:appointment_app/core/theming/colorngs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'core/theming/colors.dart';
 
 class TapDocApp extends StatelessWidget {
   const TapDocApp({super.key});

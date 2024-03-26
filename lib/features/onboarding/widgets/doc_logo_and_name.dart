@@ -13,7 +13,7 @@ class TapDocLogo extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset('assets/svg/app_logo.svg'),
+        SvgPicture.asset('assets/svg/docdoc_logo_low_opacity.svg'),
         SizedBox(width: 10.w),
         Text(
           AppStrings.appName,
