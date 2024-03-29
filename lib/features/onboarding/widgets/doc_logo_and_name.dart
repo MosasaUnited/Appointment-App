@@ -1,8 +1,8 @@
 import 'package:appointment_app/core/helpers/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 
+import '../../../core/helpers/images.dart';
 import '../../../core/theming/styles.dart';
 
 class TapDocLogo extends StatelessWidget {
@@ -13,7 +13,7 @@ class TapDocLogo extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset('assets/svg/docdoc_logo_low_opacity.svg'),
+        AppImages.appLogo,
         SizedBox(width: 10.w),
         Text(
           AppStrings.appName,
