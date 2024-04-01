@@ -62,9 +62,6 @@ dependencies:
   intl: ^0.18.1
   easy_localization: ^3.0.5
 
-  # splash screen
-  flutter_native_splash: ^2.4.0
-
   #app icon
   flutter_launcher_icons: ^0.13.1
 

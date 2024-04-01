@@ -6,4 +6,7 @@ class AppImages {
   static SvgPicture appLogoWithLowOpacity =
       SvgPicture.asset('assets/svg/docdoc_logo_low_opacity.svg');
   static Image doctorImage = Image.asset('assets/images/onboarding_doctor.png');
+  static const appLogoPng = 'assets/images/app_logo.png';
+  static const appLogoWithLowOpacityPng =
+      'assets/images/app_logo_low_opacity.png';
 }
